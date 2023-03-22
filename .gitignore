@@ -25,5 +25,7 @@ yarn-error.log*
 /src/*/.sass-cache/
 /src/*/*/.sass-cache/
 */.sass-cache/
-/.idea/
+*/.idea/
 *.map
+/*/*/.idea/
+/homeworks/DZ-1 Переменные, типы данных/.idea/
