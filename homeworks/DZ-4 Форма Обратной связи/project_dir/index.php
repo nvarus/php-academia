@@ -6,6 +6,7 @@
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./style/bootstrap.min.css">
 	<title>Document</title>
 </head>
 <body>
@@ -21,6 +22,7 @@
 
 
 	<script src="js/script.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
 </div>
 </body>
 </html>

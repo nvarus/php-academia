@@ -39,6 +39,7 @@
 		}
 	}
 
+	// запись в файл
 	$books = 'files/books.txt';
 	function create_record($title, $author,):bool {
 		

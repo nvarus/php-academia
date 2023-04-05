@@ -10,6 +10,7 @@
 				<input type="radio" name="difficulty" value="easy">
 				<span>Легкий</span>
 			</label>
+			
 			<label class="difficulty__item">
 				<input type="radio" name="difficulty" value="middle">
 				<span>Средний</span>
