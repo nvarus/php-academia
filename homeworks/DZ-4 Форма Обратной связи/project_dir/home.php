@@ -1,4 +1,4 @@
-<form class="create-book-form" action="index.php" form="form1" method="post">
+<form enctype="multipart/form-data" class="create-book-form" action="index.php" form="form1" method="post">
 	<input type="hidden" name="page" value="2">
 
 	<input type="text" name="title" placeholder="Название книги" >
@@ -7,21 +7,22 @@
 		<h3>Уровень сложности</h3>
 		<div class="difficulty__flex">
 			<label class="difficulty__item">
-				<input type="radio" name="difficulty" value="easy">
+				<input type="radio" name="difficulty" value="easy" required>
 				<span>Легкий</span>
 			</label>
 			
 			<label class="difficulty__item">
-				<input type="radio" name="difficulty" value="middle">
+				<input type="radio" name="difficulty" value="middle" required>
 				<span>Средний</span>
 			</label>
 			<label class="difficulty__item">
-				<input type="radio" name="difficulty" value="hard">
+				<input type="radio" name="difficulty" value="hard" required>
 				<span>Сложный</span>
 			</label>
 		</div>
 	</div>
 		<textarea name="annotation" placeholder="Аннотация" cols="10" rows="5"></textarea>
+	<input type="hidden" name="MAX_FILE_SIZE" value="3000000">
 		<input type="file" name="photo">
 	<select name="category" id="" >
 		<option id="select_label" value="0" disabled selected>Выберите категорию</option>
